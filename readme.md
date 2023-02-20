@@ -26,11 +26,12 @@ Symbols for JavaScript operators
 - NOT
 
 1e. Bitwise Operators
-- AND &&
-- OR ||
-- XOR ^
-- << 
-- >>
+- Bitwise AND &
+- Bitwise OR |
+- Bitwise XOR ^
+- Bitwise NOT ~
+- Left Shift << 
+- Right Shift >>
 
 
 
@@ -71,11 +72,17 @@ let spoon = 3;
 NOT cup < spoon; // TRUE
 
 2e. Bitwise Operator example
-let a = 5;
+Left Shift: 
+let a = 10; // 1010 in binary
+let result = a << 2; // 10100 in binary
+console.log(result); output: 40
 
-5 << 1 // 10 (which is the binary result of 101 << 1, because the bits are shifted one position to the left)
+Right Shift:
+let a = 10; //1010 in binary
+let result = a >> 2; // 10 in binary
+console.log(result); // Output: 2
 
-5 >> 1 // returns 2 (which is the binary result of 101 >> 1, because the bits are shifted one position to the right)
+
 
 
 4. for (let i = 1; i < 20 i += 7) {

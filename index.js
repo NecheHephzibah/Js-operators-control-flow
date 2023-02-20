@@ -1,4 +1,4 @@
-// Assignment number 3
+// Answer to assignment number 3
  let classGroup = prompt("Enter class group:");
  
  if (classGroup === "Science") {
@@ -12,3 +12,17 @@
 };
 
 
+
+// Answer to assignment number 5  
+
+function (num){
+	let pwr = 6;
+	for (let i = 0; i < num; pwr ** i);
+
+	if (pwr < num) {
+		pwr**2;
+	}
+	console.log("The number " + pwr +"is the power of 2 nearest to " + num);
+};
+
+num;
